@@ -407,7 +407,7 @@
 <div class="star star5"></div>
 
 <div class="error">
-
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/vDfkqjhtiCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <div class="error__subtitle">Hi, I'm Piscean ^-^</div>
   <div class="error__description">What are you looking for?</div>
   <button class="error__button error__button--active">MESSAGE ME?</button>
