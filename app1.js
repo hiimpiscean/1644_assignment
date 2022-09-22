@@ -1,6 +1,5 @@
 const http = require("http") //init http module
 const fs = require("fs")
-var url = require('url');
 http.createServer((req, res) =>
 {
     if (req.url === "/")
