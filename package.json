@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "req": "^0.1.4"
-  }
+  },
+  "scripts": {
+    "start": "node app1.js"
+  },
+  "name": "1644_assignment",
+  "version": "1.0.0",
+  "main": "app1.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiimpiscean/1644_assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiimpiscean/1644_assignment/issues"
+  },
+  "homepage": "https://github.com/hiimpiscean/1644_assignment#readme",
+  "description": ""
 }
