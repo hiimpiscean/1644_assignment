@@ -1,8 +1,9 @@
 const http = require("http") //init http module
-const host = "localhost"
-const port = 3000
+const fs = require("http")
 const web = http.createServer((req, res) =>
 {
-    res.end("Test");
+    res.setHeader("application-header", "text/html");
+    res.write("<h1 style='color:blue;text-align:center;'>Test</h1>");
+    res.end();
 })
-web.listen(port)
+web.listen(3000)
