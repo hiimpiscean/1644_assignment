@@ -408,7 +408,7 @@
 
 <div class="error">
 
-  <div class="error__subtitle">Hi, I'm Piscean</div>
+  <div class="error__subtitle">Hi, I'm Piscean ^-^</div>
   <div class="error__description">What are you looking for?</div>
   <button class="error__button error__button--active">MESSAGE ME?</button>
   <button class="error__button">GO FOR A DRIVE?</button>
