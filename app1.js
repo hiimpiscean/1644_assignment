@@ -1,6 +1,6 @@
 const http = require("http") //init http module
 const fs = require("fs")
-http.createServer((req, res) =>
+const app = http.createServer((req, res) =>
 {
     if (req.url === "/")
     {
@@ -32,4 +32,4 @@ http.createServer((req, res) =>
 
 
 })
-    .listen(3000)
+    app.listen(3000)
