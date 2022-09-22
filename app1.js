@@ -14,13 +14,23 @@ http.createServer((req, res) =>
     }
     else if (req.url === "/test")
     {
-        fs.readFile("/test.html", (err, data) =>
+        fs.readFile("./test1.html", (err, data) =>
             {
                 if(err) console.log("Not found!")
                 else res.end(data)
             }
         )
     }
+    else
+    {
+        fs.readFile("./test1.html", (err, data) =>
+            {
+                if(err) console.log("Not found!")
+                else res.end(data)
+            }
+        )
+    }
+
 
 })
     .listen(3000)
