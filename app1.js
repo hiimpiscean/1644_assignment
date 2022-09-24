@@ -2,6 +2,7 @@ const http = require("http") //init http module
 const fs = require("fs")
 const app = http.createServer((req, res) =>
 {
+    res.statusCode = 200
     if (req.url === "/")
     {
         fs.readFile("./test.html", (err, data) =>
